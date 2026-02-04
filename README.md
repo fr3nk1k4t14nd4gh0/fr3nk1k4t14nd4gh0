@@ -38,4 +38,8 @@ I am a developer who loves finding the **fastest way** to solve complex problems
 ![Stats Punya Frenki](./profile/stats.svg)
 
 ## 🐍 Contribution Graph
-![Snake Animation](./profile/snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="./profile/github-contribution-grid-snake.svg" />
+</picture>
