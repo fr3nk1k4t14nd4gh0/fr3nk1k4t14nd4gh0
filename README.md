@@ -36,3 +36,6 @@ I am a developer who loves finding the **fastest way** to solve complex problems
 
 ## 📈 GitHub Stats
 ![Stats Punya Frenki](./profile/stats.svg)
+
+## 🐍 Contribution Graph
+![Snake Animation](./profile/snake.svg)
