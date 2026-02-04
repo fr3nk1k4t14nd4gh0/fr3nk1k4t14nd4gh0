@@ -2,8 +2,8 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Jalan setiap jam 12 malam
-  workflow_dispatch: # Supaya bisa run manual
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
@@ -17,8 +17,9 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Kita simpan di folder profile biar rapi
           outputs: profile/snake.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_PAT }}
 
       - name: Push to repo
         run: |
