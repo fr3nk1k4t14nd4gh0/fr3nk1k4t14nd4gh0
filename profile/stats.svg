@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Frenki Katiandagho's GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 0, Total Commits  (last year) : 2666, Total PRs: 11, Total Issues: 0, Contributed to (last year): 11</desc>
+        <desc id="descId">Total Stars Earned: 0, Total Commits  (last year) : 2669, Total PRs: 11, Total Issues: 0, Contributed to (last year): 10</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 200.57873146052597;
+        stroke-dashoffset: 200.57851761187516;
       }
     }
   
@@ -222,7 +222,7 @@
         x="219.01"
         y="12.5"
         data-testid="contribs"
-      >11</text>
+      >10</text>
     </g>
   </g>
     </svg>
